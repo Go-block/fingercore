@@ -14,5 +14,7 @@ int main(){
 	const char *text;
 	std::cout<<"input data: ";
 	get_message(text);
+	std::cout << "data nya adalah " << *text <<std::endl;;
+	return 0;
 }
 
